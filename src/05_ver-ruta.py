@@ -44,7 +44,7 @@ headers = {
 	"X-Auth-Token": ticket
 }
 # Aca se elije el modo de busqueda,
-print('Elija el modo de busqueda (0 - POR IP, 1 - POR HOSTNAME')
+print('Elija el modo de busqueda (0 - POR IP, 1 - POR HOSTNAME)')
 #modo = 1
 modo = int(input())
 if modo == 1:
